@@ -20,9 +20,11 @@ The API supports basic CRUD operations (Create, Read, Update, Delete) with data 
    git clone <repository-url>
    
 
-Create and activate a virtual environment:   
-python -m venv venv
+Create and activate a virtual environment: 
+
 ### On Windows:
+python -m venv venv
+
 venv\Scripts\activate
 
 
