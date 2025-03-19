@@ -17,7 +17,7 @@ The API supports basic CRUD operations (Create, Read, Update, Delete) with data 
 
 1. **Clone the repository:**
    
-   git clone <repository-url>
+   git clone (repository-url)
    
 
 Create and activate a virtual environment: 
