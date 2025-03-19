@@ -1,4 +1,4 @@
-# User CRUD API with Flask, SQLite & SQLAlchemy
+# CRUD API with Flask, SQLite & SQLAlchemy
 
 This project implements a RESTful API for managing users using Flask. 
 The API supports basic CRUD operations (Create, Read, Update, Delete) with data stored in an SQLite database managed via SQLAlchemy.
