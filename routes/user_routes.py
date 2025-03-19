@@ -6,6 +6,7 @@ from database.db import db
 
 user_bp = Blueprint('user_bp', __name__)
 
+# Validation of user data
 def validate_user_data(data, required_fields=True):
     """
     Validate incoming user data.
