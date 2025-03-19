@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ## Run the Flask Application:
 python app.py
 
-The server will start on http://127.0.0.1:5000/.
+The server will start on http://127.0.0.1:5000/
 
 ## API Endpoints
 GET /
