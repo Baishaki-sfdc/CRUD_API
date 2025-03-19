@@ -1,0 +1,14 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#virtual  environemnt
+venv/
+
+# SQLite database file
+app.db
+
+# VS Code settings
+.vscode/

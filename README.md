@@ -48,14 +48,27 @@ Retrieves a single user by ID.
 POST /api/users
 Create a new user.
 Request Body (JSON):
+{
+  "name": "Jane Smith",
+  "email": "jane@example.com",
+  "age": 28
+}
+
+
+DELETE /api/users/<id>
+Delete a user by ID.
 
 
 ## Testing the API
 Web Browser: For GET requests, simply navigate to the URL.
 
 cURL:
-### Example for creating a user in PowerShell (using curl.exe):
-curl.exe -X POST http://127.0.0.1:5000/api/users -H "Content-Type: application/json" -d "{\"name\":\"John Doe\", \"email\":\"john@example.com\", \"age\":30}"
+### Example for updating a user in PowerShell (using Header@{}):
+
+Invoke-WebRequest -Uri "http://127.0.0.1:5000/api/users/1" -Method Put -Headers @{"Content-Type"="application/json"} -Body '{"name":"Jane Doe", "email":"jane@example.com", "age":28}'
+
+
+
  
 
 
