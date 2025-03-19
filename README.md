@@ -62,7 +62,7 @@ Delete a user by ID.
 ## Testing the API
 Web Browser: For GET requests, simply navigate to the URL.
 
-cURL:
+
 ### Example for updating a user in PowerShell (using Header@{}):
 
 Invoke-WebRequest -Uri "http://127.0.0.1:5000/api/users/1" -Method Put -Headers @{"Content-Type"="application/json"} -Body '{"name":"Jane Doe", "email":"jane@example.com", "age":28}'
