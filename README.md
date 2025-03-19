@@ -62,7 +62,7 @@ Delete a user by ID.
 
 
 ## Testing the API
-Web Browser: For GET requests, simply navigate to the URL.
+Web Browser: For GET requests, simply navigate to the URL.<br/>
 http://127.0.0.1:5000/api/users
 
 
