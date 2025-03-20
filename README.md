@@ -28,11 +28,17 @@ python -m venv venv
 
 venv\Scripts\activate
 
+### Create a requirements.txt file and add:
+Flask <br/>
+Flask-SQLAlchemy
+
 
 ## Install the required dependencies:
 pip install -r requirements.txt
 
-## Note:
+
+
+### Note:
 SQLite is automatically created and used when you run app.py.<br/>
 Flask-SQLAlchemy will create the app.db file in your project folder if it doesn't already exist.
 
@@ -75,6 +81,13 @@ http://127.0.0.1:5000/api/users
 Invoke-WebRequest -Uri "http://127.0.0.1:5000/api/users/1" -Method Put -Headers @{"Content-Type"="application/json"} -Body '{"name":"Jane Doe", "email":"jane@example.com", "age":28}'
 
 
+## Checking SQLite Database:
+
+### To verify that data is stored in SQLite, use DB Browser for SQLite:
+
+Open app.db in DB Browser for SQLite.<br/>
+Go to the Browse Data tab.<br/>
+Select the User table to check stored users.
 
  
 
