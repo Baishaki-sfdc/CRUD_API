@@ -32,7 +32,8 @@ venv\Scripts\activate
 ## Install the required dependencies:
 pip install -r requirements.txt
 
-## Note:SQLite is automatically created and used when you run app.py.<br/>
+## Note:
+SQLite is automatically created and used when you run app.py.<br/>
 Flask-SQLAlchemy will create the app.db file in your project folder if it doesn't already exist.
 
 ## Run the Flask Application:
