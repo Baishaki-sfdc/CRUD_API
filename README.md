@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 ### Note:
 SQLite is automatically created and used when you run app.py.<br/>
-Flask-SQLAlchemy will create the app.db file in your project folder if it doesn't already exist.
+Flask-SQLAlchemy will create the app.db file in the project folder if it doesn't already exist.
 
 ## Run the Flask Application:
 python app.py
