@@ -17,7 +17,7 @@ The API supports basic CRUD operations (Create, Read, Update, Delete) with data 
 
 ### Create project folder and navigate into it:
 
-mkdir crud
+mkdir crud <br/>
 cd crud
    
 
